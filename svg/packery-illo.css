@@ -1,0 +1,7 @@
+/* packery-illo
+------------------------- */
+
+.packery-illo__item { fill: #C09; }
+.packery-illo__draggie { fill: #EA0; }
+.packery-illo__hand { fill: white; }
+.packery-illo__hand-line { stroke: #EA0; }

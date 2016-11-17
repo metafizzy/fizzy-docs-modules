@@ -1,0 +1,14 @@
+
+.huebee-illo__stripe1 { fill: #C25; }
+.huebee-illo__stripe2 { fill: #E62; }
+.huebee-illo__stripe3 { fill: #EA0; }
+.huebee-illo__stripe4 { fill: #19F; }
+
+.huebee-illo__line {
+  fill: none;
+  stroke: #333;
+  stroke-width: 15;
+  stroke-miterlimit: 10;
+}
+
+.huebee-illo__antenna { stroke-linecap:round; }

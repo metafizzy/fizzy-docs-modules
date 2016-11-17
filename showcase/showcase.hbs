@@ -1,0 +1,52 @@
+<div class="showcase">
+
+  <ul class="showcase-item-list">
+    {{#unless isotope}}
+      {{> showcase-item
+        title="Isotope"
+        description="Filter & sort magical layouts"
+        isIsotopeItem=true
+        url="http://isotope.metafizzy.co"
+      }}
+    {{/unless}}
+
+    {{#unless flickity}}
+      {{> showcase-item
+        title="Flickity"
+        description="Touch, responsive, flickable carousels"
+        isFlickityItem=true
+        url="http://flickity.metafizzy.co"
+      }}
+    {{/unless}}
+
+    {{#unless packery}}
+      {{> showcase-item
+        title="Packery"
+        description="Gapless, draggable grid layouts"
+        isPackeryItem=true
+        image="http://i.imgur.com/uRXPQfm.png"
+        url="http://packery.metafizzy.co"
+      }}
+    {{/unless}}
+
+    {{#unless huebee}}
+      {{> showcase-item
+        title="Huebee"
+        description="One-click color picker"
+        isHuebeeItem=true
+        url="http://logo.pizza"
+      }}
+    {{/unless}}
+
+    {{#unless logo-pizza}}
+      {{> showcase-item
+        title="Logo Pizza"
+        description="Hot & ready logos for sale"
+        isLogoPizzaItem=true
+        url="http://logo.pizza"
+      }}
+    {{/unless}}
+
+  </ul> {{! .showcase-item-list }}
+
+</div>

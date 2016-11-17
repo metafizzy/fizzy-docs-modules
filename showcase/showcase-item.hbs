@@ -1,0 +1,25 @@
+<li class="showcase-item">
+  <a class="showcase-item__link" href="{{url}}">
+    <div class="showcase-item__image">
+      {{#if isIsotopeItem}}
+        {{> isotope-illo }}
+      {{/if}}
+      {{#if isPackeryItem}}
+        {{> packery-illo }}
+      {{/if}}
+      {{#if isFlickityItem}}
+        {{> flickity-illo }}
+      {{/if}}
+      {{#if isHuebeeItem}}
+        {{> huebee-illo }}
+      {{/if}}
+      {{#if isLogoPizzaItem}}
+        {{> logo-pizza-illo }}
+      {{/if}}
+    </div>
+    <div class="showcase-item__text">
+      <h3 class="showcase-item__title">{{title}}</h3>
+      <p class="showcase-item__description">{{description}}</p>
+    </div>
+  </a>
+</li>

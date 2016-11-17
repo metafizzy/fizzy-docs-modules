@@ -1,0 +1,9 @@
+{
+  "browser": true,
+  "unused": true,
+  "undef": true,
+  "globals": {
+    "FizzyDocs": true,
+    "filterBind": true
+  }
+}
