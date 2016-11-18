@@ -59,8 +59,17 @@
     width: 120px;
   }
 
+  .showcase-item__text {
+    padding-left: 20px;
+  }
+
   .showcase-item__title {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
+  }
+
+  .showcase-item__description {
+    font-size: 1.2rem;
+    line-height: 1.2;
   }
 
 }
