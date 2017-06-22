@@ -9,10 +9,13 @@
   background-image: linear-gradient( hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.1) );
   border: 1px solid #CCC;
   border-radius: 5px;
+}
+
+.button:enabled {
   cursor: pointer;
 }
 
-.button:hover {
+.button:enabled:hover {
   background-color: #8CF;
 }
 

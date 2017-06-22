@@ -1,0 +1,47 @@
+/* chunky-buttons
+------------------------- */
+
+.chunky-button {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  line-height: 1.0;
+}
+
+.chunky-button:hover { text-decoration: none; }
+
+.chunky-button--fill {
+  background-image: linear-gradient( hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.15) );
+}
+
+.chunky-button__icon {
+  margin-right: 10px;
+}
+
+.chunky-button__icon svg {
+  width: 48px;
+  height: 48px;
+  vertical-align: bottom;
+}
+
+.chunky-button__text {
+  display: inline-block;
+}
+
+.chunky-button__text__plain {
+  display: block;
+}
+
+.chunky-button__text__strong {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.chunky-button--outline {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 2px solid;
+}
