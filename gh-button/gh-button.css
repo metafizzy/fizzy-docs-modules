@@ -5,14 +5,13 @@
   display: inline-block;
   background: none;
   border: none;
-  font-family: Helvetica, Arial, sans-serif;
   color: #333;
+  font-size: 1.1rem;
 }
 
 .gh-button__title,
 .gh-button__stat {
   float: left;
-  font-size: 18px;
   font-weight: bold;
   line-height: 20px;
   padding: 5px 10px;

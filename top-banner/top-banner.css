@@ -1,0 +1,15 @@
+/* top-banner
+------------------------- */
+
+.top-banner__link {
+  display: block;
+  padding: 5px 0;
+  background: #19F;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.top-banner__link:hover {
+  background: #C25;
+  color: white;
+}

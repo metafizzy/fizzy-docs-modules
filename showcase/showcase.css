@@ -11,3 +11,7 @@
   display: block;
   clear: both;
 }
+
+.showcase-item .infinite-scroll-illo {
+  padding: 5px;
+}

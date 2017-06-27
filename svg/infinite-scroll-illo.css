@@ -1,0 +1,13 @@
+/* infinite-scroll-illo
+------------------------- */
+
+.infinite-scroll-illo__page {
+  stroke: #333;
+  stroke-width: 20;
+  stroke-miterlimit: 10;
+}
+
+.infinite-scroll-illo__page--back { fill: white; }
+.infinite-scroll-illo__page--front1 { fill: #C25; }
+.infinite-scroll-illo__page--front2 { fill: #E62; }
+.infinite-scroll-illo__page--front3 { fill: #EA0; }
