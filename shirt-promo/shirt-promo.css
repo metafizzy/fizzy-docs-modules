@@ -1,15 +1,15 @@
-/* fizzy-bear-shirt
+/* shirt-promo
 ------------------------- */
 
-.fizzy-bear-shirt {
+.shirt-promo {
   margin: 40px 0;
 }
 
-.fizzy-bear-shirt__title {
+.shirt-promo__title {
   font-size: 1.6rem;
 }
 
-.fizzy-bear-shirt__image {
+.shirt-promo__image {
   display: block;
   max-width: 100%;
   margin-bottom: 10px;
