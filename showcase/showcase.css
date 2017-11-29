@@ -15,3 +15,10 @@
 .showcase-item .infinite-scroll-illo {
   padding: 5px;
 }
+
+.showcase__banner__image {
+  display: block;
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
