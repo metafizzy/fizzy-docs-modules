@@ -3,13 +3,22 @@
 
 .top-banner__link {
   display: block;
-  padding: 5px 0;
-  background: #19F;
-  color: white;
-  font-size: 0.85rem;
+  padding: 15px 0;
+  background-color: #E62;
+  background-image: url('https://metafizzy.co/img/2017/logo-pizza-vol2-banner.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 0.95rem;
 }
 
-.top-banner__link:hover {
-  background: #C25;
+.top-banner__link__text {
+  background: #E62;
   color: white;
+  padding: 5px 5px;
+  border-radius: 3px;
+}
+
+.top-banner__link:hover .top-banner__link__text {
+  background: white;
+  color: #E21;
 }
