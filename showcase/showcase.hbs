@@ -1,16 +1,5 @@
 <div class="showcase">
 
-  {{! Logo Pizza showcase banner }}
-  <div class="showcase__banner">
-    <a class="showcase-item__link" href="http://logo.pizza">
-      <h3 class="showcase-item__title">Logo Pizza</h3>
-      <p class="showcase-item__description">Hot &amp; ready logos for sale</p>
-      <img class="showcase__banner__image"
-        src="https://metafizzy.co/img/2017/logo-pizza-vol2-banner.png"
-        alt="Logo Pizza vol. 2" />
-    </a>
-  </div>
-
   <ul class="showcase-item-list">
     {{#unless isotope}}
       {{> showcase-item
@@ -48,21 +37,21 @@
       }}
     {{/unless}}
 
+    {{#unless logo-pizza}}
+      {{> showcase-item
+        title="Logo Pizza"
+        description="Hot & ready logos for sale"
+        isLogoPizzaItem=true
+        url="http://logo.pizza"
+      }}
+    {{/unless}}
+
     {{#unless fizzy-school}}
       {{> showcase-item
         title="Fizzy School"
         description="Lessons in JavaScript for jQuery newbies"
         isFizzySchoolItem=true
         url="http://fizzy.school"
-      }}
-    {{/unless}}
-
-    {{#unless logo-pizza}}
-      {{! showcase-item
-        title="Logo Pizza"
-        description="Hot & ready logos for sale"
-        isLogoPizzaItem=true
-        url="http://logo.pizza"
       }}
     {{/unless}}
 
