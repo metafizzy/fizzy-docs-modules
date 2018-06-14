@@ -1,0 +1,14 @@
+/* socks-promo
+------------------------- */
+
+.socks-promo {
+  margin: 40px 0;
+}
+
+.socks-promo__image {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.socks-promo .duo__cell { margin-bottom: 0; }
