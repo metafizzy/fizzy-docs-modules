@@ -1,0 +1,30 @@
+{
+  "name": "fizzy-docs-modules",
+  "version": "1.0.0",
+  "description": "front-end modules used for Metafizzy docs sites",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:js": "npx eslint .",
+    "lint:css": "npx stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metafizzy/fizzy-docs-modules.git"
+  },
+  "author": "David DeSandro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metafizzy/fizzy-docs-modules/issues"
+  },
+  "homepage": "https://github.com/metafizzy/fizzy-docs-modules#readme",
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-plugin-metafizzy": "^1.2.1",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}

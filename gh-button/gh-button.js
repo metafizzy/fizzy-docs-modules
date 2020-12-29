@@ -1,20 +1,20 @@
 ( function() {
 
-  var ghButtonGUID = 0;
+  let ghButtonGUID = 0;
 
   FizzyDocs['gh-button'] = function( elem ) {
 
-    var hrefParts = elem.href.split('/');
-    var user = hrefParts[3];
-    var repo = hrefParts[4];
-    var statTextElem = elem.querySelector('.gh-button__stat__text');
+    let hrefParts = elem.href.split('/');
+    let user = hrefParts[3];
+    let repo = hrefParts[4];
+    let statTextElem = elem.querySelector('.gh-button__stat__text');
 
     // get data
     ghButtonGUID++;
-    var callbackName = 'ghButtonCallback' + ghButtonGUID;
+    let callbackName = 'ghButtonCallback' + ghButtonGUID;
 
     window[ callbackName ] = function( response ) {
-      var starText = addCommas( response.data.stargazers_count );
+      let starText = addCommas( response.data.stargazers_count );
       statTextElem.textContent = starText;
     };
 
@@ -23,11 +23,11 @@
     }
 
     // create & load script
-    var script = document.createElement('script');
+    let script = document.createElement('script');
     script.src = 'https://api.github.com/repos/' + user + '/' + repo +
       '?callback=' + callbackName;
     document.head.appendChild( script );
 
   };
 
-})();
+} )();

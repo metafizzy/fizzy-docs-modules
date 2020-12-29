@@ -7,10 +7,10 @@ window.FizzyDocs = {};
 
 window.filterBind = function( elem, type, selector, listener ) {
   elem.addEventListener( type, function( event ) {
-    if ( matchesSelector( event.target, selector ) ) {
+    if ( event.target.matches( selector ) ) {
       listener( event );
     }
-  });
+  } );
 };
 
-})();
+} )();
