@@ -7,13 +7,13 @@
   margin-bottom: 10px;
   border-radius: 5px;
   text-decoration: none;
-  line-height: 1.0;
+  line-height: 1;
 }
 
 .chunky-button:hover { text-decoration: none; }
 
 .chunky-button--fill {
-  background-image: linear-gradient( hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.15) );
+  background-image: linear-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.15));
 }
 
 .chunky-button__icon {

@@ -11,11 +11,6 @@
   text-align: center;
 }
 
-.buy-button__project,
-.buy-button__title,
-.buy-button__license {
-}
-
 .buy-button__title {
   font-weight: bold;
 }
@@ -54,7 +49,7 @@
     margin-bottom: 50px;
   }
 
-  .buy-button-trio:after {
+  .buy-button-trio::after {
     content: '';
     display: block;
     clear: both;
@@ -66,15 +61,12 @@
     float: left;
     width: 31.33%;
     margin-right: 3%;
+    padding: 20px 0 0;
+    transition: transform 0.2s;
   }
 
   .buy-button-trio .buy-button:nth-child(3) {
     margin-right: 0;
-  }
-
-  .buy-button-trio .buy-button {
-    transition: transform 0.2s;
-    padding: 20px 0 0;
   }
 
   .buy-button-trio .buy-button > span {
@@ -122,9 +114,7 @@
     top: 8px;
   }
 
-
   .buy-button-trio .buy-button:hover {
     transform: translateY(-5px);
   }
-
 }

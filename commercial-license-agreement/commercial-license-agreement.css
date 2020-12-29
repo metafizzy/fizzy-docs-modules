@@ -6,7 +6,7 @@
   counter-reset: cla-part;
 }
 
-.commercial-license-agreement h3:before {
+.commercial-license-agreement h3::before {
   content: counter(cla-h3) '.';
   margin-right: 0.25rem;
   color: #888;
@@ -17,8 +17,8 @@
   counter-increment: cla-part;
 }
 
-.cla__part:before,
-.cla__definitions-list li:before {
+.cla__part::before,
+.cla__definitions-list li::before {
   content: counter(cla-h3) '.' counter(cla-part) '.';
   color: #888;
   margin-right: 0.25rem;
@@ -35,6 +35,6 @@
   counter-increment: cla-definitions-item;
 }
 
-.cla__definitions-list li:before {
+.cla__definitions-list li::before {
   content: counter(cla-h3) '.' counter(cla-definitions-item) '.';
 }

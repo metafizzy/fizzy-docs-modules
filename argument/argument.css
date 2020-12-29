@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* argument
 ------------------------- */
 
@@ -16,8 +17,8 @@
   margin-left: 0.4rem;
 }
 
-.argument__type:before,
-.argument__description:before {
+.argument__type::before,
+.argument__description::before {
   content: '·';
   padding-right: 0.4rem;
   display: inline-block;

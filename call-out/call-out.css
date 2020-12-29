@@ -10,7 +10,7 @@
 }
 
 /* (i) */
-.call-out:before {
+.call-out::before {
   content: 'i';
   display: block;
   width: 20px;
@@ -33,13 +33,13 @@
 }
 
 .call-out--chill { border-color: #8C8; }
-.call-out--chill:before { background: #8C8; }
+.call-out--chill::before { background: #8C8; }
 
 /* ---- call-out--big-copy ---- */
 
 .call-out--big-copy p,
 .call-out--big-copy li,
-.call-out--big-copy li:before {
+.call-out--big-copy li::before {
   font-size: 1.2rem;
   line-height: 1.2;
 }
@@ -55,7 +55,7 @@
   counter-increment: call-out-big-copy-item;
 }
 
-.quick-start-list li:before {
+.quick-start-list li::before {
   content: counter(call-out-big-copy-item) ".";
   position: absolute;
   left: -1.2rem;
@@ -68,7 +68,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .call-out {
     border: 2px solid #ED2;
     padding: 10px 20px 10px 80px;
@@ -79,7 +78,7 @@
 
   .call-out--chill { border-color: #8C8; }
 
-  .call-out:before {
+  .call-out::before {
     width: 40px;
     height: 40px;
     left: 20px;
@@ -87,5 +86,4 @@
     font-size: 1.9rem;
     line-height: 46px;
   }
-
 }
